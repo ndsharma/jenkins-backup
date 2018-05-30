@@ -90,11 +90,10 @@
     </hudson.model.AllView>
   </views>
   <primaryView>all</primaryView>
-  <slaveAgentPort>-1</slaveAgentPort>
-  <disabledAgentProtocols>
-    <string>JNLP-connect</string>
-    <string>JNLP2-connect</string>
-  </disabledAgentProtocols>
+  <slaveAgentPort>9090</slaveAgentPort>
+  <enabledAgentProtocols>
+    <string>JNLP3-connect</string>
+  </enabledAgentProtocols>
   <label></label>
   <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
     <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
