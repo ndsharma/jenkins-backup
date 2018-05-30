@@ -44,7 +44,10 @@
       <emailAddress>dev@email.com</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
     <jenkins.security.LastGrantedAuthoritiesProperty>
-      <timestamp>0</timestamp>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1527690969782</timestamp>
     </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>
